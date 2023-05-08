@@ -40,7 +40,7 @@ class RenderController extends \lithium\action\Controller {
         //capture the response
         $requestUrl = 'api/waivers/waivers/' . $waiverId;
         $waiver = $service->get($requestUrl);
-        echo '<pre>' . var_export($waiver['success'], true) . '</pre>';
+        // echo '<pre>' . var_export($waiver['success'], true) . '</pre>';
         if ($waiver['success']['simpleData'] == 'true') {
             $templateId = $waiver['success']['templateId'];
 
@@ -215,7 +215,7 @@ class RenderController extends \lithium\action\Controller {
             $template['success']['userId'] = $waiver['success']['userId'];
             
             $waiver['success'] = $template['success'];
-            echo '<pre>' . var_export($waiver, true) . '</pre>';
+            // echo '<pre>' . var_export($waiver, true) . '</pre>';
         }
 
         // Get mongo notes
