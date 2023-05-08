@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "WaiverElectronic",
+  "description": "waiverelectronic.com - Best Digital Waiver System.",
+  "version": "1.3.6",
+  "icons": {
+  "128": "128.png"
+  },
+  "app": {
+  "urls": [
+  "https://app.waiverelectronic.com/login"
+  ],
+  "launch": {
+  "web_url": "https://app.waiverelectronic.com/login"
+  }
+  },
+  "permissions": [
+  "unlimitedStorage",
+  "notifications"
+]
+}

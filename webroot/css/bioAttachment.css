@@ -1,0 +1,33 @@
+.slip {
+    margin-top: 10px;
+    border-top: 4px solid #84c522;
+}
+
+.centerText {
+    text-align: center;
+}
+.section1 {
+    display: table;
+    width: 100%;
+}
+.section1 div {
+    width: 50%;
+    float: left;
+}
+.section1 .customerId {
+    text-align: right;
+}
+.section2 {
+    display: table;
+    width: 100%;
+}
+.section2 div {
+    width: 50%;
+    float: left;
+}
+table {
+    width: 100%;
+}
+p {
+    margin:5px 0 10px 0;
+}

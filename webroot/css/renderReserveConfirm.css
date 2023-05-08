@@ -1,0 +1,106 @@
+
+.confirm-page {
+    background-color: #fff;
+    min-height: 100vh;
+}
+.confirm-page .invoice .title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 auto 15px;
+}
+
+.confirm-page .booking-invoice .wrapper {
+    width:50px;
+    height:50px;
+    background-color:#fff;
+    right: -1px;
+    top: -1px;
+    position: absolute;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-shadow: -3px 3px 3px 0px #ccc;
+}
+.confirm-page .booking-invoice .wrapper::after {
+    content: "";
+    width: 69px;
+    height: 25px;
+    border-top: 1px solid #ccc;
+    display: block;
+    transform: rotate(45deg);
+    right: -1px;
+    position: absolute;
+    top: 21px;
+}
+.confirm-page .booking-invoice {
+    padding:35px 15px 15px 15px;
+    border:1px solid #ccc;
+    position: relative;
+}
+.confirm-page .booking-invoice .invoice-right {
+    border:1px solid #ccc;
+    /* display:flex; */
+    float:right;
+    width:250px;
+}
+.confirm-page .booking-invoice .invoice-right p {
+    margin:5px 0;
+}
+.confirm-page label {
+    margin:0;
+    font-weight: bold;
+}
+.confirm-page .booking-invoice .invoice-right .left-section {
+    background-color: #eaeaea;
+    width:50%;
+    padding:5px;
+    float: left;
+}
+.confirm-page .booking-invoice .invoice-right .right-section {
+    width:50%;
+    padding:5px;
+    float: left;
+}
+.confirm-page .reserve-form-table {
+    margin:15px 0;
+    border:1px solid #ccc;
+}
+.confirm-page .reserve-form-table table {
+        width:100%;
+}
+.confirm-page .reserve-form-table table td {
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    padding:5px;
+    padding:5px;
+    text-align:left;
+}
+.confirm-page .reserve-form-table table td:last-child {
+    border-right: none;
+}
+.confirm-page .reserve-form-table table p {
+    margin: 5px;
+}
+.confirm-page .reserve-form-table .addOn .addOn-title {
+    padding: 5px;
+    border-bottom:1px solid #ccc;
+}
+.confirm-page .reserve-form-table .addOn .addOn-selection span {
+    padding: 5px;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+.confirm-page .paper {
+    width: 100%;
+    background-color:#fff;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+.confirm-page .intake-form-section .template {
+    padding: 0;
+    width: 100%;
+    box-shadow: unset;
+    -webkit-box-shadow: unset;
+    margin: 0;
+}
